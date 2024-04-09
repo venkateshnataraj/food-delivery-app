@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./LoginPopup.css";
 import { assets } from "../../assets/assets";
 
+// eslint-disable-next-line react/prop-types
 const LoginPopup = ({ setShowLogin }) => {
   const [currentState, setCurrentState] = useState("Sign Up");
 
